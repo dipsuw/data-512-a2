@@ -19,13 +19,13 @@ Download data from following sources and save it as .csv for further processing:
 * Write the dataframe in a csv file and save it to disk
 #### Data Analysis
 * Once all the datasets are merged into a dataframe, calculate follwing for analysis:
- ** the percentage of articles-per-population for each country
- ** the percentage of high-quality articles(where prediction is either 'FA' or 'GA') for each country
+  * the percentage of articles-per-population for each country
+  * the percentage of high-quality articles(where prediction is either 'FA' or 'GA') for each country
 *  Produce four tables that show:
-** 10 highest-ranked countries in terms of number of politician articles as a proportion of country population
-** 10 lowest-ranked countries in terms of number of politician articles as a proportion of country population
-** 10 highest-ranked countries in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
-** 10 lowest-ranked countries in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
+  * 10 highest-ranked countries in terms of number of politician articles as a proportion of country population
+  * 10 lowest-ranked countries in terms of number of politician articles as a proportion of country population
+  * 10 highest-ranked countries in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
+  * 10 lowest-ranked countries in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
 * Reflect on what you have learned, what you found, what (if anything) surprised you about your findings, and/or what theories you have about why any biases might exist (if you find they exist).
 ## License of the source data
 * MIT License(https://opensource.org/licenses/MIT)
