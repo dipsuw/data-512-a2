@@ -18,10 +18,15 @@ Download data from following sources and save it as .csv for further processing:
 * Get article quality prediction by calling [ORES](https://www.mediawiki.org/wiki/ORES) api and merge article_quality with wikipedia and population data in a single dataframe.
 * Write the dataframe in a csv file and save it to disk
 #### Data Analysis
-* Create a plot to visualize Wikipedia traffic data Visualize Wikipedia traffic with 3 metrics: mobile traffic(for counts and views), desktop traffic(for counts and views) and all traffic (mobile + desktop)
-* Save the visualization as an image file
-## Data Curation
-Data curation is the management of data throughout its lifecycle, from creation and initial storage to the time when it is archived or becomes obsolete and is deleted. 
+* Once all the datasets are merged into a dataframe, calculate follwing for analysis:
+ ** the percentage of articles-per-population for each country
+ ** the percentage of high-quality articles(where prediction is either 'FA' or 'GA') for each country
+*  Produce four tables that show:
+** 10 highest-ranked countries in terms of number of politician articles as a proportion of country population
+** 10 lowest-ranked countries in terms of number of politician articles as a proportion of country population
+** 10 highest-ranked countries in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
+** 10 lowest-ranked countries in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
+* Reflect on what you have learned, what you found, what (if anything) surprised you about your findings, and/or what theories you have about why any biases might exist (if you find they exist).
 ## License of the source data
 * MIT License(https://opensource.org/licenses/MIT)
 ## Wikimedia Foundation terms of use
