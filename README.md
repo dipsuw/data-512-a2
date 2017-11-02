@@ -22,9 +22,9 @@ Download data from following sources and save it as .csv for further processing:
   * the percentage of articles-per-population for each country
   * the percentage of high-quality articles(where prediction is either 'FA' or 'GA') for each country
 *  Produce four tables that show:
-  * 10 highest-ranked countries in terms of number of politician articles as a proportion of country population
-  * 10 lowest-ranked countries in terms of number of politician articles as a proportion of country population
-  * 10 highest-ranked countries in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
+   * 10 highest-ranked countries in terms of number of politician articles as a proportion of country population
+   * 10 lowest-ranked countries in terms of number of politician articles as a proportion of country population
+   * 10 highest-ranked countries in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
   * 10 lowest-ranked countries in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
 * Reflect on what you have learned, what you found, what (if anything) surprised you about your findings, and/or what theories you have about why any biases might exist (if you find they exist).
 ## License of the source data
@@ -35,13 +35,16 @@ https://wikimediafoundation.org/wiki/Terms_of_Use/en
 * ORES (Objective Revision Evaluation Service) is a web service and API that provides machine learning as a service for Wikimedia projects maintained by the Scoring Platform team. The system is designed to help automate critical wiki-work – for example, vandalism detection and removal. Currently, the two general types of scores that ORES generates are in the context of "edit quality" and "article quality".More detailed API documentation can be found [here](https://www.mediawiki.org/wiki/ORES). 
 ## Source data
 Wikipedia data:
+
 Column name | Value | Description
 --- | --- | ---
 page | string | artcile name on Wikipedia
 country | string | name of country
 rev_id | string | revision id required to make ORES api call
+
 ## Final data
 #### Values of all fields in Final data file
+
 Column name | Value | Description
 --- | --- | ---
 year | YYYY | Year of Wikipedia traffic from 2008-2017
