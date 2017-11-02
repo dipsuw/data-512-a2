@@ -32,17 +32,15 @@ Download data from following sources and save it as .csv for further processing:
 ## Wikimedia Foundation terms of use
 https://wikimediafoundation.org/wiki/Terms_of_Use/en
 ## Relevant API documentation
-* The legacy Pagecounts API (documentation, endpoint) provides access to desktop and mobile traffic data from January 2008 through July 2016. [Documentation for pagecount](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts)
-* The Pageviews API (documentation, endpoint) provides access to desktop, mobile web, and mobile app traffic data from July 2015 through September 2017. [Documentation for pageviews](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews)
+* ORES (Objective Revision Evaluation Service) is a web service and API that provides machine learning as a service for Wikimedia projects maintained by the Scoring Platform team. The system is designed to help automate critical wiki-work – for example, vandalism detection and removal. Currently, the two general types of scores that ORES generates are in the context of "edit quality" and "article quality".More detailed API documentation can be found [here](https://www.mediawiki.org/wiki/ORES). 
 ## Source data
-Json files from api calls:
-* pagecounts_desktop-site_200801-201607
-* pagecounts_mobile-site_200801-201607
-* pageviews_all-sites_201507-201709
-* pageviews_mobile-app_201507-201709
-* pageviews_mobile-web_201507-201709
+Wikipedia data:
+Column name | Value | Description
+--- | --- | ---
+page | string | artcile name on Wikipedia
+country | string | name of country
+rev_id | string | revision id required to make ORES api call
 ## Final data
-* en-wikipedia_traffic_200801-201709
 #### Values of all fields in Final data file
 Column name | Value | Description
 --- | --- | ---
