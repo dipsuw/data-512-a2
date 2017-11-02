@@ -40,19 +40,23 @@ Column name | Value | Description
 --- | --- | ---
 page | string | artcile name on Wikipedia
 country | string | name of country
-rev_id | string | revision id required to make ORES api call
+rev_id | int | revision id required to make ORES api call
 
-## Final data
-#### Values of all fields in Final data file
+Population data:
 
 Column name | Value | Description
 --- | --- | ---
-year | YYYY | Year of Wikipedia traffic from 2008-2017
-month | MM | Month of Wikipedia traffic from Jan 2008- Sept 2017
-timestamp | MMDDYYYY | Timestamp(Datetime format)to create the time series chart
-pagecount_all_views | num_views | Number of pagecounts for mobile and desktop
-pagecount_desktop_views | num_views | Number of pagecounts for desktop
-pagecount_mobile_views | num_views | Number of pagecounts for mobile
-pageview_all_views | num_views | Number of pageviews for mobile and desktop
-pageview_desktop_views | num_views | Number of pageviews for desktop
-pageview_mobile_views | num_views | Number of pageviews for mobile
+Location | string | name of country
+Location type | string | country type
+Timeframe | string | time at which data was acquired-mid2015
+Data | string(need to be converted to number format) | population size of the country
+
+## Final data
+
+Column name | Value | Description
+--- | --- | ---
+country | string | name of country
+artcile_name | string | artcile name on Wikipedia
+revision_id | int | revision id required to make ORES api call
+artcile_quality | string | predicted quality returned from ORES api call
+population | int | population size of the country
