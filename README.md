@@ -33,6 +33,8 @@ Download data from following sources and save it as .csv for further processing:
 https://wikimediafoundation.org/wiki/Terms_of_Use/en
 ## Relevant API documentation
 * ORES (Objective Revision Evaluation Service) is a web service and API that provides machine learning as a service for Wikimedia projects maintained by the Scoring Platform team. The system is designed to help automate critical wiki-work – for example, vandalism detection and removal. Currently, the two general types of scores that ORES generates are in the context of "edit quality" and "article quality".More detailed API documentation can be found [here](https://www.mediawiki.org/wiki/ORES). 
+Sample response:
+![alt text](https://ores.wikimedia.org/v3/scores/wikidatawiki/421063984/damaging)
 ## Source data
 Wikipedia data:
 
