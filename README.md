@@ -62,3 +62,6 @@ population | int | population size of the country
 ## Attributions
 * Sample code provided in HCDS class for ORES api call
 * [Assignment wiki](https://wiki.communitydata.cc/HCDS_(Fall_2017)/Assignments#A2:_Bias_in_data)
+
+## Reflections
+In addition to the surprising and not so surprising findings mentioned in the jupyter notebook, I think that this assignment was a great start for exploratory analysis on Wikipedia articles. There is lot of potential for digging deeper here. For example, how the quality of articles was judged or whether all the articles were correctly classified as the category "Politicians by nationality" or is the data on figshare list all articles on political figures or whether the data was sampled (if sampled, we know from class lessons that sampling can introduce selection bias). Nevertheless, I enjoyed doing this exercise and it strengthen my understanding on bias in data which in my opinion is a necessity for a data scientist.
